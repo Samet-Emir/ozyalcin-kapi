@@ -81,7 +81,7 @@ h1 {
     text-align: center; /* Metni ortalar */
     margin-top: 20px; /* Üstten boşluk ekler */
     font-size: 46px; /* Yazı boyutu */
-    color: #ffffff; /* Yazı rengi */
+    color: #352b2b; /* Yazı rengi */
     background-color: #f4f4f4; /* Arka plan rengi */
     font-family: 'Playfair Display', serif;
 
@@ -90,14 +90,14 @@ h1 {
     /*text-shadow: 2px 2px 4px #000000; /* Gölge efekti */
     margin-bottom: 20px; /* Alt boşluk */
     padding: 10px; /* İçerik için boşluk ekler */   
-    text-shadow: 0px 0px 10px cyan,
-                 0px 0px 20px cyan, 
-                 0px 0px 30px cyan, 
-                 0px 0px 80px blue;
+    text-shadow: 0px 0px 10px rgb(37, 34, 34),
+                 0px 0px 20px rgb(37, 34, 34), 
+                 0px 0px 30px rgb(53, 46, 46), 
+                 0px 0px 80px rgb(56, 49, 49);
 }
 .logo {
-    width: 50px; /* Logo genişliği */
-    height: auto; /* Orantılı yükseklik */
+    width: 100px; /* Logo genişliği */
+    height: 120px; /* Orantılı yükseklik */
     margin-right: 15px; /* Logo ile başlık arasında boşluk */
     margin: 0 auto; /* Otomatik kenar boşlukları ile ortala */
     border: 5px solid #8B4513;
