@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+}
+footer {
+     
+       /* margin-top: auto; /* İçeriğin altına iterek footer'ı en alta sabitler */
+       /* background-color: #35424a; /* Footer arka plan rengi */
+        /*text-align: center; /* Metni ortalar */
+        /*padding: 10px; /* İçerik için boşluk ekler */
+        position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+            background-color:  #35424a;
+            color: khaki;
+            text-align: center;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #2c3e50;
+}
+h1 {
+    color: #35424a;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* İkonlar arasındaki boşluk */
+}
+
+.contact-info img {
+    width: 50px; /* İkon boyutu */
+    height: auto; /* Orantılı boyutlandırma */
+}
+.center {
+    text-align: center; /* Metni ortalar */
+    margin-top: 20px; /* Üstten boşluk ekler */
+}
+.ozyalcinkapi {
+    text-align: center; /* Metni ortalar */
+    margin-top: 20px; /* Üstten boşluk ekler */
+    font-size: 46px; /* Yazı boyutu */
+    color: #ffffff; /* Yazı rengi */
+    background-color: #f4f4f4; /* Arka plan rengi */
+    font-family: 'Playfair Display', serif;
+
+    /* Yazı tipi */
+    font-weight: bold; /* Kalın yazı stili */
+    /*text-shadow: 2px 2px 4px #000000; /* Gölge efekti */
+    margin-bottom: 20px; /* Alt boşluk */
+    padding: 10px; /* İçerik için boşluk ekler */   
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan, 
+                 0px 0px 30px cyan, 
+                 0px 0px 80px blue;
+}
+.logo {
+    width: 50px; /* Logo genişliği */
+    height: auto; /* Orantılı yükseklik */
+    margin-right: 15px; /* Logo ile başlık arasında boşluk */
+    margin: 0 auto; /* Otomatik kenar boşlukları ile ortala */
+    border: 5px solid #8B4513;
+    border-radius: 10px;
+            display: block;
+}
+
+.navbar {
+    display: flex; /* Flexbox ile yan yana dizilim */
+    justify-content: center; /* Yatay ortalama */
+    padding: 10px; /* İçerik boşluğu */
+    background-color: #fff; /* Arka plan rengi */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölgeleme efekti */
+}
+
+.nav-item {
+    text-align: center; /* Metin merkezi hizalama */
+    margin: 0 15px; /* Kenar boşlukları */
+}
+
+.nav-image {
+    width: 175px; /* Resim genişliği */
+    height: 250px; /* Orantılı yükseklik */
+    display: block; /* Blok düzende görüntüle */
+    margin: 0 auto; /* Otomatik kenar boşlukları ile ortala */
+}
+.catalog {
+    display: flex; /* Flexbox ile dizilim */
+    flex-wrap: wrap; /* Taşma durumunda yeni satıra geç */
+    justify-content: center; /* Yatay ortalama */
+    padding: 20px; /* İçerik boşluğu */
+}
+
+.product {
+    background-color: white; /* Ürün arka plan rengi */
+    border: 1px solid #ddd; /* Kenar çizgisi */
+    border-radius: 8px; /* Kenar yuvarlama */
+    margin: 15px; /* Kenar boşlukları */
+    padding: 15px; /* İçerik boşluğu */
+    text-align: center; /* Metin merkezi hizalama */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölgeleme efekti */
+    transition: transform 0.2s; /* Geçiş efekti */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Ürün üzerine gelindiğinde büyüme efekti */
+}
+
+.product-image {
+    width: 100%; /* Resim genişliği */
+    height: auto; /* Orantılı yükseklik */
+    border-radius: 8px; /* Resim kenar yuvarlama */
+}

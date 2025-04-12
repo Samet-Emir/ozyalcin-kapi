@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapı Dükkanı</title>
+    <style>
+      
+        img {
+            max-width: 80%;
+            border: 5px solid #8B4513;
+            border-radius: 10px;
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Kapı Dünyası Logo" class="logo">
+        <h1 class="ozyalcinkapi">ÖZYALÇIN KAPI</h1>
+        <nav>
+            <a href="hakkimizda.html">Hakkımızda</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+    </header>
+    <img id="doorImage" src="kapi1.jpg" alt="Kapi Resmi">
+    <script>
+        const images = [
+            'kapi1.jpg',
+            'kapi2.jpg',
+            'kapi3.jpg',
+            'kapi4.jpg'
+        ];
+        let currentIndex = 0;
+
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            document.getElementById('doorImage').src = images[currentIndex];
+        }
+
+        setInterval(changeImage, 3000); // 3 saniyede bir değişir
+    </script>
+    
+    <nav class="navbar">
+        <div class="nav-item">
+            <img src="antrasitgri.jpg" alt="Başlık 1" class="nav-image">
+            <h2>Pvc Kapılarımız</h2>
+        </div>
+        <div class="nav-item">
+            <img src="beyaz.webp" alt="Başlık 2" class="nav-image">
+            <h2>Melamin Kapılarımız</h2>
+        </div>
+        <div class="nav-item">
+            <img src="siyah.jpg" alt="Başlık 3" class="nav-image">
+            <h2>Amerikan Kapılarımız</h2>
+        </div>
+    </nav>
+    <footer class="footer">
+        <p>© 2025 Kapı Dükkanı. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
